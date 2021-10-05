@@ -79,8 +79,7 @@
 * [Django]() used to build site.
 * [Heroku]() used to host deployed site.
 * [Stripe]() used for the payments functionality
-* [Random Key Gen]() used to generate passwords across site.
-
+* [Random Key Gen](https://randomkeygen.com/) used to generate secret keys across site.
 * [Favicon](https://favicon.io/) used to my favicon. 
 
 ### Resources
