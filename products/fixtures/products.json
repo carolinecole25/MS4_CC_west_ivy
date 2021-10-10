@@ -57,65 +57,165 @@
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "wi00001",
-            "name": "Himalayan Spa Salts",
+            "sku": "wi00006",
+            "name": "Body Brush",
             "description": "",
             "price": 19.99,
             "category": 1,
-            "image": "bath-salts.jpeg"
+            "image": "bodybrushg.jpeg"
         }
     }, {
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "wi00001",
-            "name": "Himalayan Spa Salts",
+            "sku": "wi00007",
+            "name": "",
             "description": "",
-            "price": 19.99,
-            "category": 1,
-            "image": "bath-salts.jpeg"
+            "price": 25.99,
+            "category": 3,
+            "image": "cakestand.jpeg"
         }
     }, {
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "wi00001",
-            "name": "Himalayan Spa Salts",
+            "sku": "wi00008",
+            "name": "",
             "description": "",
-            "price": 19.99,
-            "category": 1,
-            "image": "bath-salts.jpeg"
+            "price": 32.00,
+            "category": 2,
+            "image": "candle.jpeg"
         }
     }, {
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "wi00001",
-            "name": "Himalayan Spa Salts",
+            "sku": "wi00009",
+            "name": "Vanilla Scented Candle",
             "description": "",
-            "price": 19.99,
-            "category": 1,
-            "image": "bath-salts.jpeg"
+            "price": 32.00,
+            "category": 2,
+            "image": "candle2.jpeg"
         }
     }, {
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "wi00001",
-            "name": "Himalayan Spa Salts",
+            "sku": "wi000010",
+            "name": "Cocunut and Lime Scented Candle",
             "description": "",
-            "price": 19.99,
-            "category": 1,
-            "image": "bath-salts.jpeg"
+            "price": 32.00,
+            "category": 2,
+            "image": "candle3.jpeg"
         }
-    }, {"pk": 1,
+    }, {
+        "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "wi00001",
-            "name": "Himalayan Spa Salts",
+            "sku": "wi000011",
+            "name": "Seychelles Scented Candle",
+            "description": "",
+            "price": 32.00,
+            "category": 2,
+            "image": "candle4.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000012",
+            "name": "Champange Glasses",
+            "description": "",
+            "price": 25.99,
+            "category": 3,
+            "image": "champagne.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000013",
+            "name": "Coconut Bowls",
+            "description": "",
+            "price": 19.99,
+            "category": 3,
+            "image": "coconutbowls.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000014",
+            "name": "Body Coffee Scrub",
+            "description": "Blend of coffee, vitamin E, and antioxidant-rich oils keep your skin looking perky, even and soft. Enough introductions.",
+            "price": 19.99,
+            "category": 1,
+            "image": "coffee-scrub.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000015",
+            "name": "Mug and Saucer",
+            "description": "",
+            "price": 12.99,
+            "category": 3,
+            "image": "coffee.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000016",
+            "name": "Textured Cushion",
+            "description": "",
+            "price": 25.99,
+            "category": 3,
+            "image": "cushions.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000017",
+            "name": "Fresh Grapefruit Diffuser",
+            "description": "A gentle breeze drifts through the open window and, with it, the fresh scent of the citrusy groves ripening outside. Let this sunny, uplifting blend of zesty grapefruit, exotic jasmine and bitter-sweet orange flower awaken your senses.",
+            "price": 32.99,
+            "category": 1,
+            "image": "diffuser.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000018",
+            "name": "4 Piece Dinner Set",
+            "description": "",
+            "price": 52.00,
+            "category": 1,
+            "image": "dinnerset.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000019",
+            "name": "Jade Facial Roller",
+            "description": "",
+            "price": 14.99,
+            "category": 1,
+            "image": "face-roller2.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000020",
+            "name": "",
             "description": "",
             "price": 19.99,
             "category": 1,
-            "image": "bath-salts.jpeg"
+            "image": ".jpeg"
         }
     }, {
