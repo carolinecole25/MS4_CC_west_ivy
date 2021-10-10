@@ -1,0 +1,121 @@
+[{
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi00001",
+            "name": "Himalayan Spa Salts",
+            "description": "Excellent for cleansing and purifying. With over 80 Minerals. For smooth, radiant, healthy looking Skin",
+            "price": 19.99,
+            "category": 1,
+            "image": "bath-salts.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi00002",
+            "name": "Rose and Tea Tree Orangic Bath bomb",
+            "description": "Drop in a bowl of warm water and allow rose and tea tree to steam the face, reducing redness and inflammation.",
+            "price": 7.99,
+            "category": 1,
+            "image": "bath3.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi00003",
+            "name": "Seychelles Diffuser",
+            "description": "Like a warm Indian Ocean breeze, our much-loved scent of soothing Seychelles combines notes of evocative bergamot, bright orange and fresh coconut, with a hint of green jasmine, warming amber and buttery vanilla.",
+            "price": 32.99,
+            "category": 1,
+            "image": "bathroom-diffuser.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi00004",
+            "name": "Himalayan Spa Salts",
+            "description": "This wooden bath rack is ideal for storing shower and bathing items in an easy to reach place. Designed with an extendable feature this bath shelf is ideal for many different sized baths.",
+            "price": 19.99,
+            "category": 1,
+            "image": "bathtray.jpeg"
+        }
+    }, {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi00005",
+            "name": "Black Cultery set",
+            "description": "This beautiful 16 piece cutlery set is a great addition to your dining decor this year. Complementing an array of designs with its versatile colouring, this stainless steel set is both stunning and eye-catching.",
+            "price": 59.99,
+            "category": 3,
+            "image": "blackknifeandfolk.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi00001",
+            "name": "Himalayan Spa Salts",
+            "description": "",
+            "price": 19.99,
+            "category": 1,
+            "image": "bath-salts.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi00001",
+            "name": "Himalayan Spa Salts",
+            "description": "",
+            "price": 19.99,
+            "category": 1,
+            "image": "bath-salts.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi00001",
+            "name": "Himalayan Spa Salts",
+            "description": "",
+            "price": 19.99,
+            "category": 1,
+            "image": "bath-salts.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi00001",
+            "name": "Himalayan Spa Salts",
+            "description": "",
+            "price": 19.99,
+            "category": 1,
+            "image": "bath-salts.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi00001",
+            "name": "Himalayan Spa Salts",
+            "description": "",
+            "price": 19.99,
+            "category": 1,
+            "image": "bath-salts.jpeg"
+        }
+    }, {"pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi00001",
+            "name": "Himalayan Spa Salts",
+            "description": "",
+            "price": 19.99,
+            "category": 1,
+            "image": "bath-salts.jpeg"
+        }
+    }, {

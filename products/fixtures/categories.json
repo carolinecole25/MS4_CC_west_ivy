@@ -1,0 +1,36 @@
+[{
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+        "name": "beauty_spa",
+        "friendly_name": "Beauty & Spa"
+    }
+}, {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+        "name": "home_decor",
+        "friendly_name": "Home Decor"
+    }
+}, {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+        "name": "kitchen_tableware",
+        "friendly_name": "Kitchen & Tableware"
+    }
+}, {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+        "name": "Lighting",
+        "friendly_name": "lighting"
+    }
+}, {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+        "name": "new_arrivals",
+        "friendly_name": "New Arrivals"
+    }
+}]
