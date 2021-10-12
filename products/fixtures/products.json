@@ -1,4 +1,5 @@
-[{
+[
+    {
         "pk": 1,
         "model": "products.product",
         "fields": {
@@ -169,7 +170,7 @@
         "fields": {
             "sku": "wi000016",
             "name": "Textured Cushion",
-            "description": "",
+            "description": "A",
             "price": 25.99,
             "category": 3,
             "image": "cushions.jpeg"
@@ -182,7 +183,7 @@
             "name": "Fresh Grapefruit Diffuser",
             "description": "A gentle breeze drifts through the open window and, with it, the fresh scent of the citrusy groves ripening outside. Let this sunny, uplifting blend of zesty grapefruit, exotic jasmine and bitter-sweet orange flower awaken your senses.",
             "price": 32.99,
-            "category": 1,
+            "category": 2,
             "image": "diffuser.jpeg"
         }
     }, {
@@ -191,9 +192,9 @@
         "fields": {
             "sku": "wi000018",
             "name": "4 Piece Dinner Set",
-            "description": "",
+            "description": "A",
             "price": 52.00,
-            "category": 1,
+            "category": 3,
             "image": "dinnerset.jpeg"
         }
     }, {
@@ -202,7 +203,7 @@
         "fields": {
             "sku": "wi000019",
             "name": "Jade Facial Roller",
-            "description": "",
+            "description": "A",
             "price": 14.99,
             "category": 1,
             "image": "face-roller2.jpeg"
@@ -212,10 +213,506 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000020",
-            "name": "",
-            "description": "",
+            "name": "Face Towels",
+            "description": "A",
             "price": 19.99,
             "category": 1,
-            "image": ".jpeg"
+            "image": "face-towels.jpeg"
         }
     }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000021",
+            "name": "Tumblers",
+            "description": "A",
+            "price": 19.99,
+            "category": 1,
+            "image": "glass.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000022",
+            "name": "Glass Teapot ",
+            "description": "a",
+            "price": 15.99,
+            "category": 2,
+            "image": "glassteapot.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000023",
+            "name": "Glass Tray",
+            "description": "a",
+            "price": 19.99,
+            "category": 2,
+            "image": "glasstray.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000024",
+            "name": "Glass Vase",
+            "description": "a",
+            "price": 25.99,
+            "category": 2,
+            "image": "glassvase.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000025",
+            "name": "Gold flower decor",
+            "description": "a",
+            "price": 19.99,
+            "category": 2,
+            "image": "golddecor.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000026",
+            "name": "Gold Knife and Folk",
+            "description": "a",
+            "price": 49.99,
+            "category": 1,
+            "image": "goldknifeandfolk.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000027",
+            "name": "Grey Vase",
+            "description": "a",
+            "price": 32.99,
+            "category": 2,
+            "image": "greyvase.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000028",
+            "name": "Handcream",
+            "description": "",
+            "price": 8.99,
+            "category": 1,
+            "image": "handcream.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000029",
+            "name": "Ladder",
+            "description": "A",
+            "price": 32.99,
+            "category": 2,
+            "image": "ladder.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000030",
+            "name": "Lamp",
+            "description": "A",
+            "price": 25.99,
+            "category": 4,
+            "image": "lamp.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000031",
+            "name": "Lampshade",
+            "description": "a",
+            "price": 29.99,
+            "category": 4,
+            "image": "lampshade.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000032",
+            "name": "Lampshade",
+            "description": "a",
+            "price": 22.99,
+            "category": 4,
+            "image": "lampshade2.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000033",
+            "name": "Lampshade",
+            "description": "a",
+            "price": 22.99,
+            "category": 4,
+            "image": "lampshade3.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000034",
+            "name": "Lampshade",
+            "description": "a",
+            "price": 29.99,
+            "category": 4,
+            "image": "lampshade3.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000035",
+            "name": "Lampshade",
+            "description": "a",
+            "price": 34.99,
+            "category": 4,
+            "image": "lampshade4.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000036",
+            "name": "Lampshade",
+            "description": "a",
+            "price": 32.99,
+            "category": 4,
+            "image": "lampshade5.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000037",
+            "name": "Lampshade",
+            "description": "a",
+            "price": 24.99,
+            "category": 4,
+            "image": "lampshade6.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000038",
+            "name": "lampshade",
+            "description": ""a,
+            "price": 24.99,
+            "category": 4,
+            "image": "lampshade7.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000039",
+            "name": "Lampshade",
+            "description": "a",
+            "price": 25.99,
+            "category": 4,
+            "image": "lampshade8.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000040",
+            "name": "Lampshade",
+            "description": "a",
+            "price": 22.99,
+            "category": 4,
+            "image": "lampshade9.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000041",
+            "name": "Lights",
+            "description": "a",
+            "price": 24.99,
+            "category": 4,
+            "image": "lights.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000042",
+            "name": "Matcha Tea Set",
+            "description": "a",
+            "price": 16.99,
+            "category": 3,
+            "image": "matchateaset.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000043",
+            "name": "Mug",
+            "description": "a",
+            "price": 6.99,
+            "category": 3,
+            "image": "mug.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000044",
+            "name": "Ourdoor lights",
+            "description": "a",
+            "price": 14.99,
+            "category": 4,
+            "image": "outdoorlights.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000045",
+            "name": "Smoothie Jar",
+            "description": "a",
+            "price": 4.99,
+            "category": 3,
+            "image": "pexels-photo-704979.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000046",
+            "name": "Coffee Mugs",
+            "description": "a",
+            "price": 6.99,
+            "category": 3,
+            "image": "pexels-photo-6312194.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000047",
+            "name": "Basket",
+            "description": "a",
+            "price": 14.99,
+            "category": 2,
+            "image": "plantbasket.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000048",
+            "name": "Plant Pot ",
+            "description": "",
+            "price": 24.99,
+            "category": 2,
+            "image": "plantpot.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000049",
+            "name": "Rose Quartz Heart",
+            "description": "a",
+            "price": 12.99,
+            "category": 1,
+            "image": "quartz-heart.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000050",
+            "name": "Rose Quartz Roller",
+            "description": "a",
+            "price": 12.99,
+            "category": 1,
+            "image": "rose-roller.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000051",
+            "name": "Serving Plate",
+            "description": "a",
+            "price": 25.99,
+            "category": 3,
+            "image": "servingplate.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000052",
+            "name": "Rose and Shear Butter with Coffee Soap",
+            "description": "a",
+            "price": 12.00,
+            "category": 1,
+            "image": "soap.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000053",
+            "name": "Tea Tree & Vanilla Scented Soaps",
+            "description": "a",
+            "price": 12.99,
+            "category": 1,
+            "image": "soap2.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000054",
+            "name": "Soap Dispenser",
+            "description": "",
+            "price": 16.99,
+            "category": 1,
+            "image": "soapbottle.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000055",
+            "name": "Soap Stand",
+            "description": "A",
+            "price": 12.99,
+            "category": 1,
+            "image": "soapstand.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000056",
+            "name": "Printed Cashmere Throw",
+            "description": "",
+            "price": 70.99,
+            "category": 2,
+            "image": "throw.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000057",
+            "name": "Tray",
+            "description": "A",
+            "price": 12.99,
+            "category": 2,
+            "image": "tray.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000058",
+            "name": "Tumbler",
+            "description": "A",
+            "price": 12.99,
+            "category": 3,
+            "image": "tumbler.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000059",
+            "name": "Tumbler",
+            "description": "A",
+            "price": 12.99,
+            "category": 3,
+            "image": "tumbler2.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000060",
+            "name": "Textured Vase",
+            "description": "A",
+            "price": 22.99,
+            "category": 2,
+            "image": "vase.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000061",
+            "name": "Circle Vase",
+            "description": "A",
+            "price": 25.99,
+            "category": 2,
+            "image": "vase2.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000062",
+            "name": "White Large Vase",
+            "description": "A",
+            "price": 21.99,
+            "category": 2,
+            "image": "vase4.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000063",
+            "name": "Textured Cushions",
+            "description": "A",
+            "price": 12.99,
+            "category": 2,
+            "image": "whitecushions.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000064",
+            "name": "Tray",
+            "description": "A",
+            "price": 25.99,
+            "category": 2,
+            "image": "whitetray.jpeg"
+        }
+    }, {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "wi000065",
+            "name": "Wooden Spoon",
+            "description": "A",
+            "price": 6.99,
+            "category": 2,
+            "image": "woodenspoon.jpeg"
+        }
+    }
+]
