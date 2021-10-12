@@ -412,7 +412,7 @@
         "fields": {
             "sku": "wi000038",
             "name": "lampshade",
-            "description": ""a,
+            "description": "a",
             "price": 24.99,
             "category": 4,
             "image": "lampshade7.jpeg"
