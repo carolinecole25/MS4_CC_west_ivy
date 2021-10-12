@@ -60,7 +60,7 @@
         "fields": {
             "sku": "wi00006",
             "name": "Body Brush",
-            "description": "",
+            "description": "Gently massage and exfoliate your skin with this round body brush. Skin will be left softer and smoother to the touch.",
             "price": 19.99,
             "category": 1,
             "image": "bodybrushg.jpeg"
@@ -70,8 +70,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi00007",
-            "name": "",
-            "description": "",
+            "name": "Cake Stand",
+            "description": "Make sure your delicious cakes are the centre of attention by placing them on this pedestal cake stand.",
             "price": 25.99,
             "category": 3,
             "image": "cakestand.jpeg"
@@ -81,8 +81,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi00008",
-            "name": "",
-            "description": "",
+            "name": "Coconut Scented Candle",
+            "description": "Wind down and de-stress after a busy day with our luxury Coconut medium scented candle.",
             "price": 32.00,
             "category": 2,
             "image": "candle.jpeg"
@@ -93,7 +93,7 @@
         "fields": {
             "sku": "wi00009",
             "name": "Vanilla Scented Candle",
-            "description": "",
+            "description": "Wind down and de-stress after a busy day with our luxury Vanilla medium scented candle.",
             "price": 32.00,
             "category": 2,
             "image": "candle2.jpeg"
@@ -104,7 +104,7 @@
         "fields": {
             "sku": "wi000010",
             "name": "Cocunut and Lime Scented Candle",
-            "description": "",
+            "description": "Our much-loved scent of soothing Coconut and Lime candle combines notes of evocative, bright orange and fresh coconut, with a hint of green jasmine and coconut.",
             "price": 32.00,
             "category": 2,
             "image": "candle3.jpeg"
@@ -115,7 +115,7 @@
         "fields": {
             "sku": "wi000011",
             "name": "Seychelles Scented Candle",
-            "description": "",
+            "description": "Like a warm Indian Ocean breeze, our much-loved scent of soothing Seychelles combines notes of evocative bergamot, bright orange and fresh coconut, with a hint of green jasmine, warming amber and buttery vanilla.",
             "price": 32.00,
             "category": 2,
             "image": "candle4.jpeg"
@@ -126,7 +126,7 @@
         "fields": {
             "sku": "wi000012",
             "name": "Champange Glasses",
-            "description": "",
+            "description": "Made from a strong and durable Krysta Extra Strong Crystal Glass, these glasses feature a premium finish that doesn't impact on strength or performance. With Sheer Transparency and Sheer Rim Technology, these glasses will enhance the drinking experience and enjoyment of a glass of champagne.",
             "price": 25.99,
             "category": 3,
             "image": "champagne.jpeg"
@@ -136,8 +136,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000013",
-            "name": "Coconut Bowls",
-            "description": "",
+            "name": "Coconut Bowls, Set of 2",
+            "description": "Live clean and eat clean with the eco-friendly Coconut Bowl. Handcrafted by artisans from coconut shells discard as waste, these sustainable bowls are polished to perfection and the perfect blank canvas to turn your meals into masterpieces.",
             "price": 19.99,
             "category": 3,
             "image": "coconutbowls.jpeg"
@@ -159,7 +159,7 @@
         "fields": {
             "sku": "wi000015",
             "name": "Mug and Saucer",
-            "description": "",
+            "description": "A stunning reactive glaze this cup and saucer set is elegant and stylish. Beautifully crafted from high-quality stoneware, this cup and saucer set is dishwasher safe and microwave friendly.",
             "price": 12.99,
             "category": 3,
             "image": "coffee.jpeg"
@@ -170,7 +170,7 @@
         "fields": {
             "sku": "wi000016",
             "name": "Textured Cushion",
-            "description": "A",
+            "description": "Instantly add texture to your sofa with this chunky textured cushion.",
             "price": 25.99,
             "category": 3,
             "image": "cushions.jpeg"
@@ -181,7 +181,7 @@
         "fields": {
             "sku": "wi000017",
             "name": "Fresh Grapefruit Diffuser",
-            "description": "A gentle breeze drifts through the open window and, with it, the fresh scent of the citrusy groves ripening outside. Let this sunny, uplifting blend of zesty grapefruit, exotic jasmine and bitter-sweet orange flower awaken your senses.",
+            "description": "The fresh scent of the citrusy groves ripening outside. Let this sunny, uplifting blend of zesty grapefruit, exotic jasmine and bitter-sweet orange flower awaken your senses.",
             "price": 32.99,
             "category": 2,
             "image": "diffuser.jpeg"
@@ -192,7 +192,7 @@
         "fields": {
             "sku": "wi000018",
             "name": "4 Piece Dinner Set",
-            "description": "A",
+            "description": "This quality 12 piece dining set provides the essentials you use every day in a smooth, simple style.",
             "price": 52.00,
             "category": 3,
             "image": "dinnerset.jpeg"
@@ -203,7 +203,7 @@
         "fields": {
             "sku": "wi000019",
             "name": "Jade Facial Roller",
-            "description": "A",
+            "description": "Used in ancient Chinese beauty rituals dating all the way back to the 7th Century, Herbivores Jade Facial Roller improves circulation and vitality, helps to freshen your complexion and luminosity as well as being thought to attract luck and opportunity.",
             "price": 14.99,
             "category": 1,
             "image": "face-roller2.jpeg"
@@ -214,29 +214,18 @@
         "fields": {
             "sku": "wi000020",
             "name": "Face Towels",
-            "description": "A",
+            "description": "Quick-drying, durable and lightweight, our basic face cloths are great value and perfect for everyday use.",
             "price": 19.99,
             "category": 1,
             "image": "face-towels.jpeg"
-        }
-    }, {
-        "pk": 21,
-        "model": "products.product",
-        "fields": {
-            "sku": "wi000021",
-            "name": "Tumblers",
-            "description": "A",
-            "price": 19.99,
-            "category": 1,
-            "image": "glass.jpeg"
         }
     }, {
         "pk": 22,
         "model": "products.product",
         "fields": {
             "sku": "wi000022",
-            "name": "Glass Teapot ",
-            "description": "a",
+            "name": "Glass Teapot",
+            "description": "This stylish glass teapot is the ideal piece for your home, with a modern clear look that will complement an array of home decors.",
             "price": 15.99,
             "category": 2,
             "image": "glassteapot.jpeg"
@@ -330,17 +319,6 @@
             "image": "lamp.jpeg"
         }
     }, {
-        "pk": 31,
-        "model": "products.product",
-        "fields": {
-            "sku": "wi000031",
-            "name": "Lampshade",
-            "description": "a",
-            "price": 29.99,
-            "category": 4,
-            "image": "lampshade.jpeg"
-        }
-    }, {
         "pk": 32,
         "model": "products.product",
         "fields": {
@@ -400,8 +378,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000037",
-            "name": "Lampshade",
-            "description": "a",
+            "name": "Woven Lampshade",
+            "description": "Natural Seagrass Woven Pendant Lamp Shade",
             "price": 24.99,
             "category": 4,
             "image": "lampshade6.jpeg"
@@ -422,8 +400,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000039",
-            "name": "Lampshade",
-            "description": "a",
+            "name": "Glass Lampshade",
+            "description": "pendant has a dome shape shade, with chrome detail. Made from clear glass this will give an modern look to your home.",
             "price": 25.99,
             "category": 4,
             "image": "lampshade8.jpeg"
@@ -433,8 +411,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000040",
-            "name": "Lampshade",
-            "description": "a",
+            "name": "Rattan Lampshade",
+            "description": "Natural Seagrass Woven Pendant Lamp Shade",
             "price": 22.99,
             "category": 4,
             "image": "lampshade9.jpeg"
@@ -444,8 +422,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000041",
-            "name": "Lights",
-            "description": "a",
+            "name": "Tripple Pendant Glass Light",
+            "description": "The Triple Pendant combines three vertically hanging Graphite pendants with the iconic Voronoi II bulbs to create a unique ceiling light feature.",
             "price": 24.99,
             "category": 4,
             "image": "lights.jpeg"
@@ -456,7 +434,7 @@
         "fields": {
             "sku": "wi000042",
             "name": "Matcha Tea Set",
-            "description": "a",
+            "description": "This traditional stoneware bowl has been handcrafted by Japanese ceramicists.",
             "price": 16.99,
             "category": 3,
             "image": "matchateaset.jpeg"
@@ -466,8 +444,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000043",
-            "name": "Mug",
-            "description": "a",
+            "name": "Stoneware Mug",
+            "description": "Designed from quality stoneware, this set of two mugs has been designed with a modern matt finish and is both dishwasher and microwave safe for added convenience.",
             "price": 6.99,
             "category": 3,
             "image": "mug.jpeg"
@@ -477,8 +455,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000044",
-            "name": "Ourdoor lights",
-            "description": "a",
+            "name": "Ourdoor string lights",
+            "description": "Our warm white weatherproof fairy lights radiate a gorgeous glow inside and out. Housed on a dark green cable these outdoor lights look pretty popped in trees or nestled within a hedgerow.",
             "price": 14.99,
             "category": 4,
             "image": "outdoorlights.jpeg"
@@ -488,8 +466,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000045",
-            "name": "Smoothie Jar",
-            "description": "a",
+            "name": "Mason Jar",
+            "description": "Mason jars are a great way of serving cocktails and can give the drink presentation a quirky twist.",
             "price": 4.99,
             "category": 3,
             "image": "pexels-photo-704979.jpeg"
@@ -499,8 +477,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000046",
-            "name": "Coffee Mugs",
-            "description": "a",
+            "name": "Coffee Mugs Set of 2",
+            "description": "Designed from quality stoneware, this set of two mugs has been designed with a modern matt finish and is both dishwasher and microwave safe for added convenience.",
             "price": 6.99,
             "category": 3,
             "image": "pexels-photo-6312194.jpeg"
@@ -510,8 +488,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000047",
-            "name": "Basket",
-            "description": "a",
+            "name": "Folding Basket",
+            "description": "Round storage basket in braided seagrass that can be expanded by pulling up the two handles at the top.",
             "price": 14.99,
             "category": 2,
             "image": "plantbasket.jpeg"
@@ -522,7 +500,7 @@
         "fields": {
             "sku": "wi000048",
             "name": "Plant Pot ",
-            "description": "",
+            "description": "Cement styling with elegant good looks. The dark grey base is colour washed in a muted, matt green-grey tone. Combine with the complimentary tones of Saar Cement for effortless simplicity.",
             "price": 24.99,
             "category": 2,
             "image": "plantpot.jpeg"
@@ -533,7 +511,7 @@
         "fields": {
             "sku": "wi000049",
             "name": "Rose Quartz Heart",
-            "description": "a",
+            "description": "A crucial part of beauty rituals around the world, rose quartz has been used for centuries to repair, de-stress and decongest complexions, thanks to its remarkable healing properties",
             "price": 12.99,
             "category": 1,
             "image": "quartz-heart.jpeg"
@@ -544,7 +522,7 @@
         "fields": {
             "sku": "wi000050",
             "name": "Rose Quartz Roller",
-            "description": "a",
+            "description": "A crucial part of beauty rituals around the world, rose quartz has been used for centuries to repair, de-stress and decongest complexions, thanks to its remarkable healing properties",
             "price": 12.99,
             "category": 1,
             "image": "rose-roller.jpeg"
@@ -555,7 +533,7 @@
         "fields": {
             "sku": "wi000051",
             "name": "Serving Plate",
-            "description": "a",
+            "description": "Circular porcelain serving plate with a contrasting colour rim and gold-coloured details. Width 26 cm.",
             "price": 25.99,
             "category": 3,
             "image": "servingplate.jpeg"
@@ -566,7 +544,7 @@
         "fields": {
             "sku": "wi000052",
             "name": "Rose and Shear Butter with Coffee Soap",
-            "description": "a",
+            "description": "Work this vegetable based bar into a rich lather for skin that feels thoroughly cleansed.",
             "price": 12.00,
             "category": 1,
             "image": "soap.jpeg"
@@ -577,7 +555,7 @@
         "fields": {
             "sku": "wi000053",
             "name": "Tea Tree & Vanilla Scented Soaps",
-            "description": "a",
+            "description": "Work this vegetable based bar into a rich lather for skin that feels thoroughly cleansed.",
             "price": 12.99,
             "category": 1,
             "image": "soap2.jpeg"
@@ -588,7 +566,7 @@
         "fields": {
             "sku": "wi000054",
             "name": "Soap Dispenser",
-            "description": "",
+            "description": "Decorated in black for a modern design, this Elements lotion dispenser is crafted from ceramic and has a pump application.",
             "price": 16.99,
             "category": 1,
             "image": "soapbottle.jpeg"
@@ -598,8 +576,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000055",
-            "name": "Soap Stand",
-            "description": "A",
+            "name": "Bamboo Soap Dish",
+            "description": "Fluted bamboo soap dish. Width 7.5 cm. Length 11 cm.",
             "price": 12.99,
             "category": 1,
             "image": "soapstand.jpeg"
@@ -610,7 +588,7 @@
         "fields": {
             "sku": "wi000056",
             "name": "Printed Cashmere Throw",
-            "description": "",
+            "description": "Woven into a zig zag design, this light blue and white throw is completed with beautiful tasselled edging",
             "price": 70.99,
             "category": 2,
             "image": "throw.jpeg"
@@ -620,8 +598,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000057",
-            "name": "Tray",
-            "description": "A",
+            "name": "Rectangle Ivory Tray",
+            "description": "This ivory tray with 2 handles will make a great addition to your home.",
             "price": 12.99,
             "category": 2,
             "image": "tray.jpeg"
@@ -631,8 +609,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000058",
-            "name": "Tumbler",
-            "description": "A",
+            "name": "Glass Tumblers, Set of 2",
+            "description": "A simple, practical set of four glass tumblers with a classic shape. Set of 2",
             "price": 12.99,
             "category": 3,
             "image": "tumbler.jpeg"
@@ -642,8 +620,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000059",
-            "name": "Tumbler",
-            "description": "A",
+            "name": "Glass Tumblers, Set of 2",
+            "description": "A simple, practical set of four glass tumblers with a classic shape. Set of 2",
             "price": 12.99,
             "category": 3,
             "image": "tumbler2.jpeg"
@@ -653,8 +631,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000060",
-            "name": "Textured Vase",
-            "description": "A",
+            "name": "Stoneware Vase",
+            "description": "Round, stylish stoneware vase. Diameter at the top 8 cm. Height 21 cm.",
             "price": 22.99,
             "category": 2,
             "image": "vase.jpeg"
@@ -664,8 +642,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000061",
-            "name": "Circle Vase",
-            "description": "A",
+            "name": "Ceramic vase",
+            "description": "Circular ceramic vase. Diameter 20 cm, total height 21 cm. Diameter of opening 3.5 cm.",
             "price": 25.99,
             "category": 2,
             "image": "vase2.jpeg"
@@ -675,8 +653,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000062",
-            "name": "White Large Vase",
-            "description": "A",
+            "name": "Large Stoneware Vase",
+            "description": "Large stoneware vase designed to hold long-stemmed flowers.",
             "price": 21.99,
             "category": 2,
             "image": "vase4.jpeg"
@@ -686,8 +664,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000063",
-            "name": "Textured Cushions",
-            "description": "A",
+            "name": "Washed Linen Cushion",
+            "description": "Cushion in washed linen with a concealed zip.",
             "price": 12.99,
             "category": 2,
             "image": "whitecushions.jpeg"
@@ -697,8 +675,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000064",
-            "name": "Tray",
-            "description": "A",
+            "name": "Large Stoneware Tray",
+            "description": "The tray has a reactive glaze that creates variegated colouring, giving each one a unique appearance.",
             "price": 25.99,
             "category": 2,
             "image": "whitetray.jpeg"
@@ -709,9 +687,9 @@
         "fields": {
             "sku": "wi000065",
             "name": "Wooden Spoon",
-            "description": "A",
+            "description": "Ideal for use with all types of cookware surfaces including non-stick, they're made of beech wood and have hanging-up holes on the handles.",
             "price": 6.99,
-            "category": 2,
+            "category": 3,
             "image": "woodenspoon.jpeg"
         }
     }
