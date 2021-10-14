@@ -235,8 +235,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000023",
-            "name": "Glass Tray",
-            "description": "a",
+            "name": "Mirrored Tray",
+            "description": "This stunning gold tray will complement an array of home decors beautifully, with its modern colourway and stylish design. ",
             "price": 19.99,
             "category": 2,
             "image": "glasstray.jpeg"
@@ -247,7 +247,7 @@
         "fields": {
             "sku": "wi000024",
             "name": "Glass Vase",
-            "description": "a",
+            "description": "The unique shape makes the vase beautiful both with and without flowers.",
             "price": 25.99,
             "category": 2,
             "image": "glassvase.jpeg"
@@ -257,8 +257,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000025",
-            "name": "Gold flower decor",
-            "description": "a",
+            "name": "Gold decorative flower",
+            "description": "These Gold Wired Rose Leaves could be the perfect floral decoration for your wedding or special occasion! These glistening rose leaves are perfect for embellishing stunning wedding outfits and table decorations, but can also be used for lots of other floral craft.",
             "price": 19.99,
             "category": 2,
             "image": "golddecor.jpeg"
@@ -269,7 +269,7 @@
         "fields": {
             "sku": "wi000026",
             "name": "Gold Knife and Folk",
-            "description": "a",
+            "description": "This beautiful 16 piece cutlery set is a great addition to your dining decor this year. Complementing an array of designs with its versatile colouring, this stainless steel set is both stunning and eye-catching.",
             "price": 49.99,
             "category": 1,
             "image": "goldknifeandfolk.jpeg"
@@ -280,7 +280,7 @@
         "fields": {
             "sku": "wi000027",
             "name": "Grey Vase",
-            "description": "a",
+            "description": "A versatile range of planters, bowls and vases. There is a place for Esra in every home. The Mystic Grey option has a subtle, matt grey colour-washed effect over a brown base, giving it a lovely warm tone.",
             "price": 32.99,
             "category": 2,
             "image": "greyvase.jpeg"
@@ -290,8 +290,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000028",
-            "name": "Handcream",
-            "description": "",
+            "name": "Shea Butter Handcream",
+            "description": "Perfect for on-the-go hydration, don't leave home without this handcream. Infused with the scent of shea, the light, gel-cream formula absorbs quickly, helping to soften and protect the hands.",
             "price": 8.99,
             "category": 1,
             "image": "handcream.jpeg"
@@ -301,8 +301,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000029",
-            "name": "Ladder",
-            "description": "A",
+            "name": "Ladder Towel Rack & Rail",
+            "description": "The striking ladder made for a striking storage piece, ideally suited to storing towels in a bathroom or displaying scarves and accessories in a dressing area",
             "price": 32.99,
             "category": 2,
             "image": "ladder.jpeg"
@@ -312,8 +312,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000030",
-            "name": "Lamp",
-            "description": "A",
+            "name": "Rattan Table Lamp",
+            "description": "Coming with an intricate rattan design, this table lamp will give your space a home-made look.",
             "price": 25.99,
             "category": 4,
             "image": "lamp.jpeg"
@@ -322,43 +322,10 @@
         "pk": 32,
         "model": "products.product",
         "fields": {
-            "sku": "wi000032",
-            "name": "Lampshade",
-            "description": "a",
-            "price": 22.99,
-            "category": 4,
-            "image": "lampshade2.jpeg"
-        }
-    }, {
-        "pk": 32,
-        "model": "products.product",
-        "fields": {
             "sku": "wi000033",
-            "name": "Lampshade",
-            "description": "a",
+            "name": "Gold Antique Lampshade",
+            "description": "This contemporary chrome pendant light fitting features simple curved lines and is available in a choice of finishes.",
             "price": 22.99,
-            "category": 4,
-            "image": "lampshade3.jpeg"
-        }
-    }, {
-        "pk": 34,
-        "model": "products.product",
-        "fields": {
-            "sku": "wi000034",
-            "name": "Lampshade",
-            "description": "a",
-            "price": 29.99,
-            "category": 4,
-            "image": "lampshade3.jpeg"
-        }
-    }, {
-        "pk": 35,
-        "model": "products.product",
-        "fields": {
-            "sku": "wi000035",
-            "name": "Lampshade",
-            "description": "a",
-            "price": 34.99,
             "category": 4,
             "image": "lampshade4.jpeg"
         }
@@ -367,8 +334,8 @@
         "model": "products.product",
         "fields": {
             "sku": "wi000036",
-            "name": "Lampshade",
-            "description": "a",
+            "name": "Glass Lampshade",
+            "description": "With an interesting Oval silhouette shape and crackle glass effect, this transparent pendant will brighten up your room.",
             "price": 32.99,
             "category": 4,
             "image": "lampshade5.jpeg"
@@ -382,17 +349,6 @@
             "description": "Natural Seagrass Woven Pendant Lamp Shade",
             "price": 24.99,
             "category": 4,
-            "image": "lampshade6.jpeg"
-        }
-    }, {
-        "pk": 38,
-        "model": "products.product",
-        "fields": {
-            "sku": "wi000038",
-            "name": "lampshade",
-            "description": "a",
-            "price": 24.99,
-            "category": 4,
             "image": "lampshade7.jpeg"
         }
     }, {
@@ -401,7 +357,7 @@
         "fields": {
             "sku": "wi000039",
             "name": "Glass Lampshade",
-            "description": "pendant has a dome shape shade, with chrome detail. Made from clear glass this will give an modern look to your home.",
+            "description": "Thi pendant has a dome shape shade, with chrome detail. Made from clear glass this will give an modern look to your home.",
             "price": 25.99,
             "category": 4,
             "image": "lampshade8.jpeg"
