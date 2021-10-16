@@ -5,10 +5,7 @@
                 New Arrivals
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="new-products-link">
-                <a href="#" class="dropdown-item">New Beauty & Spa</a>
-                <a href="#" class="dropdown-item">New Home Decor</a>
-                <a href="#" class="dropdown-item">New Kitchen & Tableware</a>
-                <a href="#" class="dropdown-item">New Lighting</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">All New Products</a>
             </div>
         </li>
         
@@ -17,11 +14,11 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}" class="dropdown-item">All products</a>
-                <a href="#" class="dropdown-item">Beauty & Spa</a>
-                <a href="#" class="dropdown-item">Home Decor</a>
-                <a href="#" class="dropdown-item">Kitchen & Tableware</a>
-                <a href="#" class="dropdown-item">Lighting</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=beauty_spa" class="dropdown-item">Beauty & Spa</a>
+                <a href="{% url 'products' %}?category=home_decor" class="dropdown-item">Home Decor</a>
+                <a href="{% url 'products' %}?category=kitchen_tableware" class="dropdown-item">Kitchen & Tableware</a>
+                <a href="{% url 'products' %}?category=Lighting" class="dropdown-item">Lighting</a>
             </div>
         </li>
         <li class="nav-item dropdown">
