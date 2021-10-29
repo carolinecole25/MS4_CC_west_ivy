@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
+{% load bag_tools %}
+
 
 {% block page_header %}
     <div class="container header-container">
@@ -46,9 +48,9 @@
                                     <td class="py-3">
                                         <p class="my-0">£{{ item.product.price }}</p>
                                     </td>
-                                    <td class="py-3 w-25">
+                                   <!-- <td class="py-3 w-25">
                                         <p class="my-0">{{ item.quantity }}</p>
-                                    </td>
+                                    </td> -->
                                     <td class="py-3 w-25">
                                         <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                                             {% csrf_token %}
@@ -79,6 +81,9 @@
                                         <!--Update and remove bag items-->
                                         <a class="update-link text-info"><i class="mx-1 fa-fw fas fa-sync-alt"></i></a>
                                         <a class="remove-item text-danger remove-link" id="remove_{{ item.item_id }}"><i class="mx-1 fa-fw far fa-trash-alt"></i></a>
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
                                     </td>
                                 </tr>
                             {% endfor %}
@@ -142,7 +147,7 @@
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
         var url = `/bag/remove/${itemId}/`;
-        var data = {'csrfmiddlewaretoken': csrfToken, 'size': size};
+        var data = {'csrfmiddlewaretoken': csrfToken, 'product_size': size};
 
         $.post(url, data)
          .done(function() {
