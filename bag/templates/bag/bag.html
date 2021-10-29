@@ -64,8 +64,7 @@
                                                     </div>
                                                     <input class="form-control form-control-sm qty_input" type="number"
                                                         name="quantity" value="{{ item.quantity }}" min="1" max="99"
-                                                        data-item_id="{{ item.item_id }}"
-                                                        id="id_qty_{{ item.item_id }}">
+                                                        data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
                                                     <div class="input-group-append">
                                                         <button class="increment-qty btn btn-sm btn-black rounded-0"
                                                             data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
@@ -74,14 +73,12 @@
                                                             </span>
                                                         </button>
                                                     </div>
-                                                    {% if item.product.has_sizes %}
-                                                        <input type="hidden" name="product_size" value="{{ item.size }}">
-                                                    {% endif %}
                                                 </div>
                                             </div>
                                         </form>
-                                        <a class="update-link text-info"><small>Update</small></a>
-                                        <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-size="{{ item.size }}"><small>Remove</small></a>
+                                        <!--Update and remove bag items-->
+                                        <a class="update-link text-info"><i class="mx-1 fa-fw fas fa-sync-alt"></i></a>
+                                        <a class="remove-item text-danger remove-link" id="remove_{{ item.item_id }}"><i class="mx-1 fa-fw far fa-trash-alt"></i></a>
                                     </td>
                                 </tr>
                             {% endfor %}
@@ -144,7 +141,7 @@
     $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
-        var url = `/bag/remove/${itemId}`;
+        var url = `/bag/remove/${itemId}/`;
         var data = {'csrfmiddlewaretoken': csrfToken, 'size': size};
 
         $.post(url, data)
