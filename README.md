@@ -118,7 +118,20 @@ Tables
 Tables 
 
 ## Bugs found and fixed during development 
+* Removing items from the shopping bag was not working with the below code:
+```
+$('.remove-item').click(function(e) {
+        var csrfToken = "{{ csrf_token }}";
+        var itemId = $(this).attr('id').split('remove_')[1];
+        var url = `/bag/remove/${itemId}/`;
 
+        $.post(url, data)
+         .done(function() {
+             location.reload();
+         });
+    })
+```
+with the help of student support we realised I had missed off ```var data = {'csrfmiddlewaretoken': csrfToken}; ``` once this was added into the JS, the delete button worked perfectly.
 
 ## Deployment
 
