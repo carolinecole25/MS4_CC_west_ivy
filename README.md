@@ -118,7 +118,7 @@ Tables
 Tables 
 
 ## Bugs found and fixed during development 
-* Removing items from the shopping bag was not working with the below code:
+* Removing items from the shopping bag was not working with the below code: 
 ```
 $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
