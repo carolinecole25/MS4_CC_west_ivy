@@ -120,12 +120,12 @@ Tables
 ## Bugs found and fixed during development 
 * Removing items from the shopping bag was not working with the below code: 
 ```
-£('.remove-item').click(function(e) {
+$('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
-        var itemId = £(this).attr('id').split('remove_')[1];
-        var url = `/bag/remove/£{itemId}/`;
+        var itemId = $(this).attr('id').split('remove_')[1];
+        var url = `/bag/remove/${itemId}/`;
 
-        £.post(url, data)
+        $.post(url, data)
          .done(function() {
              location.reload();
          });
