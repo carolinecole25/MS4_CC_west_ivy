@@ -28,11 +28,13 @@ body {
     width: fit-content;
 }
 
-.shop-now-button {
-    background: black;
-    color: white;
+.shop-now-button,
+.home-button {
+    border: 1px solid #fff;
+    color: #fff;
     min-width: 260px;
 }
+
 
 .btn-black {
     background: black;
@@ -55,6 +57,14 @@ body {
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
+.home-button:hover,
+.home-button:active,
+.home-button:focus {
+    background: #fff;
+    color: black;
+}
+
+
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
