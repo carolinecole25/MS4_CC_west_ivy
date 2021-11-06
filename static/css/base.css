@@ -2,14 +2,21 @@ html {
     height: 100%;
 }
 
-body {
+#hero {
     background: url('/media/background12.jpeg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Raleway';
+    height: calc(90vh - 164px);
+    max-width: 100%;
 }
 
+.index-images {
+    margin-top: 55vh;
+}
+
+.img-page-links {
+    width: 100%;
+    height: calc(90vh - 164px);
+}
 
 /* from Bulma */
 .icon {
