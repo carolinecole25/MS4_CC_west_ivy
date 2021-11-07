@@ -1,11 +1,15 @@
 .order-history {
     max-height: 416px; 
     overflow-y: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 
 #profile-update-form .form-control {
     color: #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #profile-update-form input::placeholder {

@@ -161,7 +161,8 @@ with the help of student support we realised I had missed off ```var data = {'cs
 
 
 ### Media
-1. Images for recipes and Utensils taken from [Pexels](https://www.pexels.com/)
+1. Images for shopping bag and home page taken from [Pexels](https://www.pexels.com/)
+2. Images for inspiration pages taken from [Soho home](https://www.sohohome.com/inspiration/shop-the-look/living-room)
 
 ### Design
 * Design Inspiations taken from [SOHO Home](https://www.sohohome.com/new), [H&M Home](https://www2.hm.com/en_gb/home.html), [Nkuku](https://www.nkuku.com/).
