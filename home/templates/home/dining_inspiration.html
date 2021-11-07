@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="logo-font">Dining Guide</h2>
+                <hr class="w-50 mb-1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="{{ MEDIA_URL }}inspodining.jpeg" alt="Dining" class="img-thumbnail border-0">
+                <a href="{% url 'products' %}?category=lighting" class="home-button btn rounded-0 text-uppercase py-3">Shop Lighting</a>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <img src="{{ MEDIA_URL }}inspodining1.jpeg" alt="Dining" class="img-thumbnail border-0">
+            </div>
+            <div class="col-sm-12 col-md-6 text-black inspo-text">
+                <p class="text-center">Invest in some table décor. One of a kind accessories create the soul.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <img src="{{ MEDIA_URL }}inspodining2.jpeg" alt="Dining" class="img-thumbnail border-0">
+            </div>
+            <div class="col-sm-12 col-md-6 text-black inspo-text">
+                <p class="text-center">Make your dining room the heart of the home with a beautiful dining collection, spotlighting rich textures and sculptural shapes.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 inspo-text">
+                <img src="{{ MEDIA_URL }}inspodining3.jpeg" alt="Dining" class="img-thumbnail border-0">
+            </div>
+            <div class="col-sm-12 col-md-6 text-black inspo-text">
+                <p class="text-center">Let the dining table and chairs have centre stage in the room.</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="logo-font">Home Decor Guide</h2>
+                <hr class="w-50 mb-1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="{{ MEDIA_URL }}homeinspo.jpeg" alt="Home Decor" class="img-thumbnail border-0">
+                <a href="{% url 'products' %}?category=lighting" class="home-button btn rounded-0 text-uppercase py-3">Shop Lighting</a>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <img src="{{ MEDIA_URL }}homeinspo1.jpeg" alt="Home Decor" class="img-thumbnail border-0">
+            </div>
+            <div class="col-sm-12 col-md-6 text-black inspo-text">
+                <p class="text-center">Add visual interest to the space by using textiles that come in a variety of textures.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <img src="{{ MEDIA_URL }}homeinspo2.jpeg" alt="Home Decor" class="img-thumbnail border-0">
+            </div>
+            <div class="col-sm-12 col-md-6 text-black inspo-text">
+                <p class="text-center">Textiles work to unify the room and help bring the space together.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <img src="{{ MEDIA_URL }}homeinsp3.jpeg" alt="Home Decor" class="img-thumbnail border-0">
+            </div>
+            <div class="col-sm-12 col-md-6 text-black inspo-text">
+                <p class="text-center">Layer different textiles, tones and shape to create a cosy feel.</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

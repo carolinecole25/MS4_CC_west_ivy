@@ -318,4 +318,21 @@ footer {
     height: 15vh;
     align-items: center;
     display: flex;
+    margin-top: 20px;
 }
+
+.inspo-text {
+    font-size: 28px;
+}
+
+@media screen and (max-width: 600px) {
+    .inspo-text {
+      font-size: 20px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .inspo-text {
+      font-size: 15px;
+    }
+  }
