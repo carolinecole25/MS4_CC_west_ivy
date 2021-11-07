@@ -355,3 +355,27 @@ footer {
       font-size: 15px;
     }
   }
+
+
+/* Our story and Contact us page */
+.ourstory-text {
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .ourstory-text {
+      font-size: 15px;
+    }
+  }
+
+@media screen and (max-width: 991px) {
+    .ourstory-text {
+      padding-top: 0;
+    }
+  }
+
+.contact-us {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
