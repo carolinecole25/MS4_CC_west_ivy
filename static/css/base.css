@@ -310,7 +310,6 @@ input[name='q']::placeholder {
 }
 
 
-
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -336,6 +335,7 @@ input[name='q']::placeholder {
         height: calc(100vh - 116px);
     }
 }
+
 
 /* Footer */
 

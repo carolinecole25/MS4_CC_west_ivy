@@ -39,28 +39,26 @@
         <div class="col-sm-12 col-md-6">
             <div>
                 <img src="{{ MEDIA_URL }}lightingling.jpeg" alt="Description" class="img-page-links border-0 img-thumbnail">
-                <a href="{% url 'products' %}?category=lighting" class="home-button home-cat-links btn rounded-0 text-uppercase py-3">Lighting</a>
+                <a href="{% url 'products' %}?category=Lighting" class="home-button home-cat-links btn rounded-0 text-uppercase py-3">Lighting</a>
             </div>
         </div>
         <h3>Our bestsellers</h3>
         <div class="col-sm-4">
-            <a href="{% url 'product_detail' 12 %}" class="text-decoration-none text-dark"></a>
             <div>
                 <img src="{{ MEDIA_URL }}champagne.jpeg" alt="Champange Glasses" class="border-0 img-thumbnail">
-                <a href="{% url 'products' %}" class="home-button bestsellers-link btn rounded-0 text-uppercase py-3">Champange Glasses</a>
+                <a href="{% url 'product_detail' 12 %}" class="home-button bestsellers-link btn rounded-0 text-uppercase py-3">Champange Glasses</a>
             </div>
         </div>
         <div class="col-sm-4">
             <div>
                 <img src="{{ MEDIA_URL }}candle2.jpeg" alt="Vanilla Scented Candle" class="border-0 img-thumbnail">
-                <a href="{% url 'products' %}" class="home-button btn bestsellers-link rounded-0 text-uppercase py-3">Vanilla Candle</a>
+                <a href="{% url 'product_detail' 9 %}" class="home-button btn bestsellers-link rounded-0 text-uppercase py-3">Vanilla Candle</a>
             </div>
         </div>
         <div class="col-sm-4">
-            <a href="{% url 'product_detail' 20 %}" class="text-decoration-none text-dark"></a>
             <div>
                 <img src="{{ MEDIA_URL }}face-towels.jpeg" alt="Face Towels" class="border-0 img-thumbnail">
-                <a href="{% url 'products' %}" class="home-button bestsellers-link btn rounded-0 text-uppercase py-3">Face Towels</a>
+                <a href="{% url 'product_detail' 20 %}" class="home-button bestsellers-link btn rounded-0 text-uppercase py-3">Face Towels</a>
             </div>
         </div>
     </div>
