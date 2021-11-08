@@ -23,7 +23,6 @@
       {% endblock %}
 
       {% block favicon %}
-      <title class="pagetitle">mint</title>
       <link rel="apple-touch-icon" sizes="180x180" href="static/images/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png">
@@ -43,7 +42,7 @@
       {% endblock %}
 
         <title>West Ivy {% block extra_title %} {% endblock %}</title>
-        </head>
+    </head>
 
         <body>
           <header class="container-fluid fixed-top">
@@ -116,7 +115,7 @@
             <div class="row bg-white">
               <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#main-nav"
-                  aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                   aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 {% include 'includes/mobile-top-header.html' %}

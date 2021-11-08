@@ -94,19 +94,44 @@
 
 ## Testing
 ### HTML Validation
-
+The [W3 Validator](https://validator.w3.org/#validate_by_input) was used to test my HTML. All passed with warning apart from the pages using crsipy field which some errors occured. I have researched these errors and they will not affect my project. See below evidence:
+* [Base HTML](static/images/testing/basehtml.png)
+* [Bag HTML](static/images/testing/baghtml.png)
+* [Checkout HTML](static/images/testing/checkouthtml.png)
+* [Contact us HTML](static/images/testing/contactushtml.png)
+* [Dining Inspiration HTML](static/images/testing/dininginspohtml.png)
+* [Edit Product HTML](static/images/testing/editproducthtml.png)
+* [Home Inspiration HTML](static/images/testing/homeinspohtml.png)
+* [Lighting Inspiration HTML](static/images/testing/lightinginspohtml.png)
+* [Login HTML](static/images/testing/loginhtml.png)
+* [Order Success HTML](static/images/testing/ordersuccesshtml.png)
+* [Our Story HTML](static/images/testing/ourstoryhtml.png)
+* [Product Detail HTML](static/images/testing/product-detailhtml.png)
+* [Product HTML](static/images/testing/producthtml.png)
+* [Product Management HTML](static/images/testing/productmanagehtml.png)
+* [Profile HTML](static/images/testing/profilehtml.png)
+* [Register HTML](static/images/testing/registerhtml.png)
+* [Sign out HTML](static/images/testing/signouthtml.png)
 
 ### CSS Validation
-The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_uri) 
+The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_uri) was used to test my CSS. All passed using direct input, see evidence below:
+* [Base CSS](static/images/testing/basecss.png)
+* [Checkout CSS](static/images/testing/checkoutcss.png)
+* [Profile CSS](static/images/testing/profilecss.png)
 
 ### Performance 
-[Google lighthouse](https://developers.google.com/web/tools/lighthouse) 
+[Google lighthouse](https://developers.google.com/web/tools/lighthouse) was used to test my performance. See [here](static/images/testing/performance.png) for evidence and below for details:
+* Performance 71 
+* Accessibility 100
+* Best Practices 80
+* SEO 83
 
 ### Javascript
-[JS Hint](https://jshint.com/) 
+[JS Hint](https://jshint.com/) was used to test my JS. All passed with a few warnings, see below for evidence:
+[JS](static/images/testing/js.png)
 
 ### Python
-[Pep 8](http://pep8online.com/)
+[Pep 8](http://pep8online.com/) used to check for errors. All passed but some with a few warnging. Select [here](static/images/testing/python.png) for evidence for no warnings or errors.
 
 ### Testing client stories from UX section 
 
