@@ -17,6 +17,15 @@ html {
     margin-top: 20px;
 }
 
+/* search bar */
+
+.search-bar {
+    padding-left: 58px;
+}
+
+.mobile-search {
+    width: 280px
+}
 
 /* from Bulma */
 .icon {

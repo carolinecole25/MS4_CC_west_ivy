@@ -23,10 +23,11 @@
       {% endblock %}
 
       {% block favicon %}
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
+      <title class="pagetitle">mint</title>
+      <link rel="apple-touch-icon" sizes="180x180" href="static/images/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png">
+      <link rel="manifest" href="static/images/site.webmanifest">
       {% endblock %}
       
       {% block corejs %}
@@ -54,7 +55,7 @@
               </div>
               <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
-                  <div class="input-group w-100">
+                  <div class="input-group w-100 search-bar">
                     <input class="form-control border border-black rounded-0" type="text" name="q"
                       placeholder="Search our site">
                     <div class="input-group-append">
