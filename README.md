@@ -58,6 +58,22 @@
 
 
 ### Wireframes 
+Select each of the below to view my wireframes: 
+
+* [Base](static/images/testing/wireframes/basewf.png)
+* [Products ](static/images/testing/wireframes/productswf.png)
+* [Product Detail](static/images/testing/wireframes/product-detailwf.png)
+* [Dining inspiration](static/images/testing/wireframes/dininginspwf.png)
+* [Lighting inspiration](static/images/testing/wireframes/lightinginspwf.png)
+* [Home Decor inspiration](static/images/testing/wireframes/homeinspwf.png)
+* [Profile](static/images/testing/wireframes/profilewf.png)
+* [Our Story](static/images/testing/wireframes/outstorywf.png)
+* [Contact us](static/images/testing/wireframes/contactuswf.png)
+* [Product Management](static/images/testing/wireframes/pmwf.png)
+* [Login](static/images/testing/wireframes/loginwf.png)
+* [Logout](static/images/testing/wireframes/logoutwf.png)
+* [Register](static/images/testing/wireframes/registerwf.png)
+* [Edit Products](static/images/testing/wireframes/editproductwf.png)
 
 
 ## Technologies Used 
