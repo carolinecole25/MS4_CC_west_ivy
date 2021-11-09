@@ -2,7 +2,7 @@
 
 ![Responsive Design]()
 
-[View the deployed website]()
+[View the deployed website](https://ms4-cc-west-ivy.herokuapp.com/)
 
 ## Table of Content 
 1. [Project Goals](#project-goals)
