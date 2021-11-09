@@ -90,11 +90,11 @@ Select each of the below to view my wireframes:
 * [Bootstrap](https://getbootstrap.com/)
 * [GitHub](https://github.com/) used as primary for my code.
 * [Balsamiq](https://balsamiq.com/) used to create wireframes.
-* [jQuery]()
-* [SQLite]() database used during development.
-* [Django]() used to build site.
-* [Heroku]() used to host deployed site.
-* [Stripe]() used for the payments functionality
+* [jQuery](https://jquery.com/)
+* [SQLite](https://www.sqlite.org/index.html) database used during development.
+* [Django](https://www.djangoproject.com/) used to build site.
+* [Heroku](https://dashboard.heroku.com/) used to host deployed site.
+* [Stripe](https://stripe.com/) used for the payments functionality
 * [Random Key Gen](https://randomkeygen.com/) used to generate secret keys across site.
 * [Favicon](https://favicon.io/) used to my favicon. 
 
