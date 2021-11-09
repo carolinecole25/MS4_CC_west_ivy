@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['MS4_CC_west_ivy', 'localhost']
+ALLOWED_HOSTS = ['ms4-cc-west-ivy.herokuapp.com', 'localhost']
 
 
 # Application definition
