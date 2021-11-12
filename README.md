@@ -175,15 +175,76 @@ $('.remove-item').click(function(e) {
 with the help of student support we realised I had missed off ```var data = {'csrfmiddlewaretoken': csrfToken}; ``` once this was added into the JS, the delete button worked perfectly.
 
 ## Deployment
-
-### Requirements 
-
+The IDE chosen was Gitpod and deployment to Heroku.
 
 ### How to run this project locally
- 
+1. From my project's repo on [GitHub](https://github.com/carolinecole25/MS4_CC_west_ivy), download the files by clicking on "Code" and getting the zip folder.
+2. Open the project's folder and install all the requirements from the requirements.txt file with the below command:
+```
+pip3 install -r requirements.txt.
+```
+3 Set up your environment variables in an env.py file, ensuring you add env.py to gitignore as per below:
+```
+os.environ["DEVELOPMENT"] = "True"
+os.environ('STRIPE_PUBLIC_KEY', 'YOUR_STRIPE_PUBLIC_KEY')
+os.environ('STRIPE_SECRET_KEY', 'YOUR_STRIPE_SECRET_KEY')
+os.environ('STRIPE_WH_SECRET', 'YOUR_STRIPE_WH_SECRET')
+os.environ('SECRET_KEY', 'YOUR_DJANGO_SECRET_KEY') 
+```
+4. Migrate the models with the below commands in this same order:
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
+5. Set up the database by loading the fixtures which can be found in MS4_CC_west_ivy/products/fixtures in the following order:
+```
+python3 manage.py loaddata categories
+
+python3 manage.py loaddata products
+```
+6. Create a superuser for yourself so you can do admin tasks using the below command:
+```
+python3 manage.py createsuperuser
+```
+7. Run the project locally with the below command:
+```
+python3 manage.py runserver
+```
 
 ### Deployment to Heroku
-
+1. Set up you [AWS account](https://aws.amazon.com/) which is where your static and media files will be hosted for your deployed site.
+2. Add a public access S3 basket, more informaiton [here ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html).
+3. Connect this to your Django application, more information [here](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html).
+4. Login to Heroku and create your new app and select the region closest to you.
+5. In your IDE, add a Procfile with the below code:
+```
+web: gunicorn bojeaux.wsgi:application
+```
+6. In Heroku, under settings, add your Config Vars which should include the below:
+* AWS_ACCESS_KEY_ID
+* AWS_SECRET_ACCESS_KEY
+* DATABASE_URL
+* SECRET_KEY
+* STRIPE_PUBLIC_KEY
+* STRIPE_SECRET_KEY
+* STRIPE_WH_SECRET
+* USE_AWS - set to `True`
+7. In settings file, add in the below code:
+```
+ALLOWED_HOSTS = ['your-app-url', 'localhost']
+```
+8. In settings file, replace DATABASES with the below code:
+```
+DATABASES = {
+ 'default': dj_database_url.parse('your-url-goes-here')
+}
+```
+9. Git add, commit and push code to GitHub.
+10. On Heroku under the deploy tab, connect to github and choose your git repository then select auto deploy. This will take a few minutes to load, once loaded a link for your deployed site will appear. 
+11. Now you can set up with your email account for sending emails. Create an email account and ensure you have 2-step verification turn and generate an App Password under settings. Add the passwork to Config Vars along with Email host pass, see below:
+* EMAIL_HOST_PASS
+* EMAIL_HOST_USER
+10. Your site should now be deployed and functioning. 
 
 ## Credits
 * [Code institute](https://codeinstitute.net/) [Boutique Ado mini project](https://github.com/Code-Institute-Solutions/boutique_ado_v1) which my site was based on and adapted to fit my sites requirements. 
