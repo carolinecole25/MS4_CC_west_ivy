@@ -139,7 +139,7 @@ The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_uri
 [Google lighthouse](https://developers.google.com/web/tools/lighthouse) was used to test my performance. See [here](static/images/testing/performance.png) for evidence and below for details:
 * Performance 71 
 * Accessibility 100
-* Best Practices 80
+* Best Practices 70
 * SEO 83
 
 ### Javascript
