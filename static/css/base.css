@@ -27,6 +27,10 @@ html {
     width: 280px
 }
 
+.header-container {
+    padding: 5px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
