@@ -26,6 +26,7 @@ html {
 .mobile-search {
     width: 280px
 }
+/* Nav bar 
 
 .navbar {
     padding-bottom: 0;
@@ -426,4 +427,9 @@ footer {
 .contact-us {
     padding-top: 20px;
     padding-bottom: 30px;
+}
+
+/* Error page */
+.error-pages {
+    padding-top: 30px;
 }

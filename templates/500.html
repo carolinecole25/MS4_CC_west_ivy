@@ -12,10 +12,10 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container custom-error-padding">
-        <p>Sorry, an error has occurred</p>
+    <div class="container text-center error-pages">
+        <h1><i class="fas fa-frown"></i></h1>
+        <h4>Sorry, an error has occurred</h4>
         <div class="pb-4 pt-2"><a href="{% url 'products' %}" class="btn btn-lg btn-dark text-uppercase hvr-skew-backward">
-            <h1><i class="fas fa-frown"></i></h1>
             <i class="las la-angle-left"></i>Back to products</a>
         </div>
     </div>
