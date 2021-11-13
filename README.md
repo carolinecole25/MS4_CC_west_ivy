@@ -23,15 +23,12 @@
     4. [Performance](#performance)
     5. [Javascript](#javascript)
     6. [Python](#python)
-    7. [Testing client stories from UX section](#testing-client-stories-from-ux-section)
+    7. [Testing user stories from UX section](#testing-user-stories-from-ux-section)
 6. [Bugs](#bugs)
 7. [Deployment](#deployment)
 8. [How to run this project locally](#how-to-run-this-project-locally)
 9. [Credits](#credits)
-    1. [HTML](#html)
-    2. [CSS](#css)
-    3. [Javascript](#javascript)
-    4. [Python](#python)
+    1. [Code](#code
     4. [Media](#media)
     5. [Text](#text)
     6. [Acknowledgements](#acknowledgements)
@@ -47,7 +44,7 @@
 
 | User Story | As A/An  | I want to be able to | So that I can |
 |---|---|---|---|
-| 1 | Site User | Easily view a total of my purchases |  |
+| 1 | Site User | Easy to view a total of my purchases | Keep tabs on spending |
 | 2 | Site User | View individual product details | Learn more about the product |
 | 3 | Site User | View a list of products  | Choose what I would like to purchase |
 | 4 | Site User | Easily register for an account | Be able to view my recent purchases and sign in when I return |
@@ -56,7 +53,7 @@
 | 7 | Site User | Sort through products easily | Find the product I am looking for quickly |
 | 8 | Site User | Search for a product by using name and description | Find a specific product |
 | 9 | Site User | View items in my bag | View total cost of my bagged items. |
-| 10 | Site User | Adjust the quantity of items in my bag | Easily make chases to my shopping bag |
+| 10 | Site User | Adjust the quantity of items in my bag | Easily make changes to my shopping bag |
 | 11 | Site User | Easily and securely enter my payment information  | Checkout quickly and safely |
 | 12 | Site User | Receive confirmation email after checkout | Verify my order |
 | 13 | Store Owner | Edit and update product details | Change product prices, images and description  |
@@ -65,10 +62,12 @@
 
 
 ### Design choices 
-
+* I chose a simple design for my website with a white background to ensure all images took center stage so the user can clearly see which product they like. 
+* The font I chose was simple yet easy to read and eligant, in black to ensure good all uses can read the writing clearly. 
+* 
 
 ### Images 
-
+* Images for my website are taken from [Pexels](https://www.pexels.com/) and [Soho home](https://www.sohohome.com/inspiration/shop-the-look/living-room). They suit the theme of the website and I am happy with the look and feel.
 
 ### Wireframes 
 Select each of the below to view my wireframes: 
@@ -165,14 +164,27 @@ The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_uri
 ### Python
 [Pep 8](http://pep8online.com/) used to check for errors. All passed but some with a few warnging. Select [here](static/images/testing/python.png) for evidence for no warnings or errors.
 
-### Testing client stories from UX section 
+### Testing user stories from UX section 
+| Feature | Action | Expected Result | Actual Result | Evidence |
+|---|---|---|---|---|
+| 1. Easy view a total of my purchases | Keep tabs on spending | Users should see a pop up with the total of all items in back when an item is added. User should be able to access the checkout at anytime to view a list of purchases | Works as expected | ![ALT](/static/images/testing/bagux.png) ![ALT](/static/images/testing/bag1ux.png) |
+| 2. View individual product details | Learn more about the product | User is able to select an image which will take them to a screen displaying the product and more information about it | Works as expected | ![ALT](/static/images/testing/productux.png) |
+| 3. View a list of products | Choose what I would like to purchase | User is able to select view products easily but selecting the 'view products' button on the home page or 'All products' on the menu bar under 'Products | Works as expected | ![ALT](/static/images/testing/productsux.png) |
+| 4. Easily register for an account | Be able to view my recent purchases and sign in when I return | User is able to register for an account and sign in when they return | Works as expected | ![ALT](/static/images/testing/registerux.png) |
+| 5. Easily login and out | Access my purchase history and ensure easier checkout for next time | User is able to login to to their profile and see their details and a list of recent purchases | Works as expected | ![ALT](/static/images/testing/loginux.png) |
+| 6. Receive email confirmation after registering | Verify my registration | User registers and received a confirmation email | Works as expected |  |
+| 7. Sort through products easily | Find the product I am looking for quickly | User is able to sort products on the website in order to find what they are looking for. | Works as expected | ![ALT](/static/images/testing/sortux.png) |
+| 8. Search for a product by using name and description | Find a specific product | User is able to use the search bar to find a specific product | Works as expected | ![ALT](static/images/testing/searchux.png) |
+| 9. View items in my bag | View total cost of my bagged items. | User is able to view shopping bag and see a list of all items in the bag with description, price and quantity | Works as expected | ![ALT](/static/images/testing/bag2ux.png) |
+| 10. Adjust the quantity of items in my bag | Easily make changes to my shopping bag | User is able to add, remove and change the quantity of items in their shopping bag | Works as expected | ![ALT](/static/images/testing/changesux.png) |
+| 11. Easily and securely enter my payment information | Checkout quickly and safely | User is able to checkout knowing their details are secure | Works as expected | ![ALT](/static/images/testing/checkoutux.png) |
+| 12. Receive confirmation email after checkout | Verify my order | User receives a confirmation email when placing an order | Works as expected |  |
+| 13. Edit and update product details | Change product prices, images and description | Site owner is able to edit, update and remove product details  | Works as expected | ![ALT](/static/images/testing/adminux.png) |
+| 14. Add a product | Add a new item to my website | Site owner is able to add products to the website | Works as expected | ![ALT](/static/images/testing/addux.png) |
+| 15. Delete a product | Remove items from my website that are no longer on sale | Site owner is able to delete a product from the website when it is no longer required | Works as expected | ![ALT](/static/images/testing/deleteux.png) |
 
-#### Site Users
-Tables 
-
-
-#### Site Owner 
-Tables 
+### Devices Used for Testing
+Tested on Macbook Pro and iPhone xs.
 
 ## Bugs found and fixed during development 
 * Removing items from the shopping bag was not working with the below code: 
@@ -265,17 +277,11 @@ DATABASES = {
 ## Credits
 * [Code institute](https://codeinstitute.net/) [Boutique Ado mini project](https://github.com/Code-Institute-Solutions/boutique_ado_v1) which my site was based on and adapted to fit my sites requirements. 
 
-### HTML
-
-
-### CSS
-
-
-### Javascript
-
-
-### Python 
-
+### Code
+* [Code institute](https://codeinstitute.net/) course material, particularly the Boutique Ado mini project, from which I have reused code for several functionalities.
+* [Bootstrap](https://getbootstrap.com/) code for many templates throughout the site.
+[Django documentation](https://docs.djangoproject.com/en/3.2/) for deeper understanding on how models, views and urls come together to build apps.
+* [Stripe](https://stripe.com/docs) documentation for better understanding on how webhooks and test payments work.
 
 ### Media
 1. Images for shopping bag and home page taken from [Pexels](https://www.pexels.com/)
@@ -285,5 +291,6 @@ DATABASES = {
 * Design Inspiations taken from [SOHO Home](https://www.sohohome.com/new), [H&M Home](https://www2.hm.com/en_gb/home.html), [Nkuku](https://www.nkuku.com/).
 
 ### Acknowledgements 
-* Tutor support for helping fix bugs and any issues which occurred. 
+* Tutor support, thank for your support for helping fix bugs and any issues which occurred. 
+* Mo, my mentor thanks for your support on this project.
 
