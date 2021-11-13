@@ -97,6 +97,9 @@ Select each of the below to view my wireframes:
 * [Stripe](https://stripe.com/) used for the payments functionality
 * [Random Key Gen](https://randomkeygen.com/) used to generate secret keys across site.
 * [Favicon](https://favicon.io/) used to my favicon. 
+* [AWS S3](https://aws.amazon.com/) - used for storage of static and media files on the deployed site.
+* [Autoprefixer](https://autoprefixer.github.io/) - used for adding CSS vendor prefixes to increase compatibility across browsers.
+* [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/).
 
 ### Resources
 * 
