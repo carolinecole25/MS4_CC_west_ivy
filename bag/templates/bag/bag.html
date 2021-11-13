@@ -26,7 +26,7 @@
                     <div class="table-responsive rounded">
                         <table class="table table-sm table-border-less">
                             <thead class="text-black">
-                                <tr>
+                                <tr class="checkout-subheadings">
                                     <th scope="col">Product Info</th>
                                     <th scope="col"></th>
                                     <th scope="col">Price</th>
@@ -36,21 +36,21 @@
                             </thead>
                             {% for item in bag_items %}
                                 <tr>
-                                    <td class="col-md-3 col-12">
+                                    <td class="checkout-items col-md-3">
                                         {% if item.product.image %}
                                         <img class="img-fluid rounded" src="{{ item.product.image.url }}" alt="{{ item.product.name}}">
                                         {% else %}
                                             <img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name}}">
                                         {% endif %}
                                     </td>
-                                    <td class="col-md-3 col-12">
+                                    <td class="checkout-items col-md-3">
                                         <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                                         <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
                                     </td>
-                                    <td class="py-3">
+                                    <td class="checkout-items col-md-3">
                                         <p class="my-0">£{{ item.product.price }}</p>
                                     </td>
-                                    <td class="col-md-2 col-12">
+                                    <td class="checkout-items col-md-2">
                                         <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                                             {% csrf_token %}
                                             <div class="form-group">
@@ -81,13 +81,13 @@
                                         <a class="update-link text-info"><i class="mx-1 fa-fw fas fa-sync-alt"></i></a>
                                         <a class="remove-item text-danger remove-link" id="remove_{{ item.item_id }}"><i class="mx-1 fa-fw far fa-trash-alt"></i></a>
                                     </td>
-                                    <td class="col-md-2 col-12">
+                                    <td class="checkout-items col-md-2">
                                         <p class="my-0">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
                                     </td>
                                 </tr>
                             {% endfor %}
                             <tr>
-                                <td colspan="5" class="text-right col-md-2 col-12">
+                                <td colspan="5" class="checkout-items text-right col-md-2">
                                     <h6><strong>Bag Total: £{{ total|floatformat:2 }}</strong></h6>
                                     <h6>Delivery: £{{ delivery|floatformat:2 }}</h6>
                                     <h4 class="mt-4"><strong>Grand Total: £{{ grand_total|floatformat:2 }}</strong></h4>
@@ -99,7 +99,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="5" class="text-right col-md-2 col-12">
+                                <td colspan="5" class="text-right col-md-2">
                                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>

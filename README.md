@@ -45,10 +45,23 @@
 ## User Experience
 ### User Stories 
 
-#### Site Users
-
-
-#### Site Owner 
+| User Story | As A/An  | I want to be able to | So that I can |
+|---|---|---|---|
+| 1 | Site User | Easily view a total of my purchases |  |
+| 2 | Site User | View individual product details | Learn more about the product |
+| 3 | Site User | View a list of products  | Choose what I would like to purchase |
+| 4 | Site User | Easily register for an account | Be able to view my recent purchases and sign in when I return |
+| 5 | Site User | Easily login and out | Access my purchase history and ensure easier checkout for next time |
+| 6 | Site User | Receive email confirmation after registering  | Verify my registration  |
+| 7 | Site User | Sort through products easily | Find the product I am looking for quickly |
+| 8 | Site User | Search for a product by using name and description | Find a specific product |
+| 9 | Site User | View items in my bag | View total cost of my bagged items. |
+| 10 | Site User | Adjust the quantity of items in my bag | Easily make chases to my shopping bag |
+| 11 | Site User | Easily and securely enter my payment information  | Checkout quickly and safely |
+| 12 | Site User | Receive confirmation email after checkout | Verify my order |
+| 13 | Store Owner | Edit and update product details | Change product prices, images and description  |
+| 14 | Store Owner | Add a product | Add a new item to my website |
+| 15 | Store Owner | Delete a product | Remove items from my website that are no longer on sale |
 
 
 ### Design choices 
