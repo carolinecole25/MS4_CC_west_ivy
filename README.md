@@ -28,16 +28,21 @@
 7. [Deployment](#deployment)
 8. [How to run this project locally](#how-to-run-this-project-locally)
 9. [Credits](#credits)
-    1. [Code](#code
+    1. [Code](#code)
     4. [Media](#media)
     5. [Text](#text)
     6. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
-
-
 ### Developer and Business Goals
-
+* Create a professional website which is userfriendly, innovative and stylish.
+* All frameworks used to be fully functioning. 
+* To add this to my portfolio and be proud of the work I have created.
+* All pages to be functioning properly
+* The site to be fully responsive.
+* User enjoy their shopping experience and return to the website.
+* User to love our products.
+* Users to follow our social media pages.
 
 ## User Experience
 ### User Stories 
@@ -115,10 +120,25 @@ Select each of the below to view my wireframes:
 
 ## Features
 ### Existing Features 
-
+* Responsive front end design.
+* Repsonsive navbar taking users to the requested page.
+* User profiles, including order history and delivery details.
+* Signin, register, login, logout functionality.
+* Toasts, which tell the user what action has been done in the top right corner of the screen.
+* Automatic emails.
+* Links on home page to the 4 different product categories. 
+* Best sellers on the home page with link to that product's details.
+* Product filtering.
+* Bag total and ability for the user to update the shopping bag.
+* Checkout page with form for the user to complete with the option to store their data.
+* Payment using Stripe.
+* Our inspiration page, to give user's inspiration about their home interiors.
+* Links to social media page's at the bottom of the screen.
+* Contact us and about us pages to give the users a better understanding out West Ivy.
 
 ### Features left to implements
-
+* Adding the option for users to remove their profile.
+* Create social media accounts for West Ivy and add the link to the footer.
 
 ## Testing
 
@@ -176,10 +196,10 @@ The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_uri
 | 9. View items in my bag | View total cost of my bagged items. | User is able to view shopping bag and see a list of all items in the bag with description, price and quantity | Works as expected | ![ALT](/static/images/testing/bag2ux.png) |
 | 10. Adjust the quantity of items in my bag | Easily make changes to my shopping bag | User is able to add, remove and change the quantity of items in their shopping bag | Works as expected | ![ALT](/static/images/testing/changesux.png) |
 | 11. Easily and securely enter my payment information | Checkout quickly and safely | User is able to checkout knowing their details are secure | Works as expected | ![ALT](/static/images/testing/checkoutux.png) |
-| 12. Receive confirmation email after checkout | Verify my order | User receives a confirmation email when placing an order | Works as expected |  |
-| 13. Edit and update product details | Change product prices, images and description | Site owner is able to edit, update and remove product details  | Works as expected | ![ALT](/static/images/testing/adminux.png) |
-| 14. Add a product | Add a new item to my website | Site owner is able to add products to the website | Works as expected | ![ALT](/static/images/testing/addux.png) |
-| 15. Delete a product | Remove items from my website that are no longer on sale | Site owner is able to delete a product from the website when it is no longer required | Works as expected | ![ALT](/static/images/testing/deleteux.png) |
+|
+| 12. Edit and update product details | Change product prices, images and description | Site owner is able to edit, update and remove product details  | Works as expected | ![ALT](/static/images/testing/adminux.png) |
+| 13. Add a product | Add a new item to my website | Site owner is able to add products to the website | Works as expected | ![ALT](/static/images/testing/addux.png) |
+| 14. Delete a product | Remove items from my website that are no longer on sale | Site owner is able to delete a product from the website when it is no longer required | Works as expected | ![ALT](/static/images/testing/deleteux.png) |
 
 ### Devices Used for Testing
 Tested on Macbook Pro and iPhone xs.
@@ -311,9 +331,9 @@ DATABASES = {
 
 ### Code
 * [Code institute](https://codeinstitute.net/) course material, particularly the Boutique Ado mini project, from which I have reused code for several functionalities.
+* [Django documentation](https://docs.djangoproject.com/en/3.2/) for deeper understanding on how models, views and urls come together to build apps.
 * [Bootstrap](https://getbootstrap.com/) code for many templates throughout the site.
-[Django documentation](https://docs.djangoproject.com/en/3.2/) for deeper understanding on how models, views and urls come together to build apps.
-* [Stripe](https://stripe.com/docs) documentation for better understanding on how webhooks and test payments work.
+* [Stripe](https://stripe.com/docs) documentation for better understanding on how webhooks work.
 
 ### Media
 1. Images for shopping bag and home page taken from [Pexels](https://www.pexels.com/)
