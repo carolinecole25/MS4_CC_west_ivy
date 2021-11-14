@@ -26,4 +26,5 @@ class OrderAdmin(admin.ModelAdmin):
                     'order_total', 'delivery_cost',
                     'grand_total',)
 
+
 admin.site.register(Order, OrderAdmin)

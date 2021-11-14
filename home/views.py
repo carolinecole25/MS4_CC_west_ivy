@@ -1,6 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
 
 def index(request):
     """ A view to return the index page. """
@@ -25,10 +24,12 @@ def home_decor_inspiration(request):
 
     return render(request, 'home/home_decor_inspiration.html')
 
+
 def our_story(request):
     """ A view to return the our story page. """
 
     return render(request, 'home/our_story.html')
+
 
 def contact_us(request):
     """ A view to return the contact us page. """
