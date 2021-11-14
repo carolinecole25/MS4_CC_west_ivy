@@ -202,6 +202,27 @@ $('.remove-item').click(function(e) {
 ```
 with the help of student support we realised I had missed off ```var data = {'csrfmiddlewaretoken': csrfToken}; ``` once this was added into the JS, the delete button worked perfectly.
 
+* My toasts were not closing when the cross was selected with the below code:
+```
+<script type="text/javascript">
+          $('.toast').toast('show');
+        </script>
+```
+with the help of Sean at tutor support I amended the code with a more up to date JS code and it works correctly. Code below:
+```
+let toastElList = [].slice.call(document.querySelectorAll('.toast'))
+          let toastList = toastElList.map(function (toastEl) {
+            return new bootstrap.Toast(toastEl)
+          });
+          toastList.forEach(toast => toast.show());
+          const buttonClose = document.querySelectorAll('.btn-close');
+          buttonClose.forEach(btn => btn.addEventListener('click', event => {
+          const toast = document.querySelector('.toast.custom-toast.fade.show');
+          toast.classList.remove('show');
+          toast.classList.add('hide')
+          }))
+```
+
 ## Deployment
 The IDE chosen was Gitpod and deployment to Heroku.
 
