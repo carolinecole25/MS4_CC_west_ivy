@@ -1,6 +1,6 @@
 # West Ivy Interiors 
 
-![Responsive Design]()
+![Responsive Design](static/images/testing/iamresponsive.png)
 
 [View the deployed website](https://ms4-cc-west-ivy.herokuapp.com/)
 
@@ -64,7 +64,6 @@
 ### Design choices 
 * I chose a simple design for my website with a white background to ensure all images took center stage so the user can clearly see which product they like. 
 * The font I chose was simple yet easy to read and eligant, in black to ensure good all uses can read the writing clearly. 
-* 
 
 ### Images 
 * Images for my website are taken from [Pexels](https://www.pexels.com/) and [Soho home](https://www.sohohome.com/inspiration/shop-the-look/living-room). They suit the theme of the website and I am happy with the look and feel.
@@ -113,8 +112,6 @@ Select each of the below to view my wireframes:
 * [Autoprefixer](https://autoprefixer.github.io/) - used for adding CSS vendor prefixes to increase compatibility across browsers.
 * [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/).
 
-### Resources
-* 
 
 ## Features
 ### Existing Features 
@@ -124,6 +121,7 @@ Select each of the below to view my wireframes:
 
 
 ## Testing
+
 ### HTML Validation
 The [W3 Validator](https://validator.w3.org/#validate_by_input) was used to test my HTML. All passed with warning apart from the pages using crsipy field which some errors occured. I have researched these errors and they will not affect my project. See below evidence:
 * [Base HTML](static/images/testing/basehtml.png)
@@ -162,7 +160,7 @@ The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_uri
 [JS](static/images/testing/js.png)
 
 ### Python
-[Pep 8](http://pep8online.com/) used to check for errors. All passed but some with a few warnging. Select [here](static/images/testing/python.png) for evidence for no warnings or errors.
+[Pep 8](http://pep8online.com/) used to check for errors. All passed but some with a few warnging. Select [here](static/images/testing/python.png) for evidence for no warnings or errors. Warning that I have left I have researched and will not impact the website.
 
 ### Testing user stories from UX section 
 | Feature | Action | Expected Result | Actual Result | Evidence |
@@ -222,6 +220,19 @@ let toastElList = [].slice.call(document.querySelectorAll('.toast'))
           toast.classList.add('hide')
           }))
 ```
+
+* Shopping bag was not repsonsive for mobile devices. I added to below code for screen 700px and below:
+```
+@media screen and (max-width: 700px) {
+    .checkout-items {
+        display: block !important;
+    }
+    .checkout-subheadings {
+        display: none;
+    }
+}
+```
+This code worked and the shopping back is now responsive. 
 
 ## Deployment
 The IDE chosen was Gitpod and deployment to Heroku.
