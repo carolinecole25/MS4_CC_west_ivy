@@ -180,7 +180,16 @@ The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_uri
 [JS](static/images/testing/js.png)
 
 ### Python
-[Pep 8](http://pep8online.com/) used to check for errors. All passed but some with a few warnging. Select [here](static/images/testing/python.png) for evidence for no warnings or errors. Warning that I have left I have researched and will not impact the website.
+[Pep 8](http://pep8online.com/) used to check for errors. All passed with no errors or warning, please select each of the below option with a screenshot containing evidence for all pages in that folder. Any errors I have left are no from code I have written.
+
+[Bag](static/images/testing/bagpython.png)
+[Checkout](static/images/testing/checkoutpython.png)
+[Home](static/images/testing/homepython.png)
+[MS4_CC_WEST_IVY](static/images/testing/westivypython.png)
+[Products](static/images/testing/productspython.png)
+[Profiles](static/images/testing/profilespython.png)
+[Project Level](static/images/testing/projectlevelpython.png)
+
 
 ### Testing user stories from UX section 
 | Feature | Action | Expected Result | Actual Result | Evidence |
