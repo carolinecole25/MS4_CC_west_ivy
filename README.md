@@ -196,7 +196,6 @@ The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_uri
 | 9. View items in my bag | View total cost of my bagged items. | User is able to view shopping bag and see a list of all items in the bag with description, price and quantity | Works as expected | ![ALT](/static/images/testing/bag2ux.png) |
 | 10. Adjust the quantity of items in my bag | Easily make changes to my shopping bag | User is able to add, remove and change the quantity of items in their shopping bag | Works as expected | ![ALT](/static/images/testing/changesux.png) |
 | 11. Easily and securely enter my payment information | Checkout quickly and safely | User is able to checkout knowing their details are secure | Works as expected | ![ALT](/static/images/testing/checkoutux.png) |
-|
 | 12. Edit and update product details | Change product prices, images and description | Site owner is able to edit, update and remove product details  | Works as expected | ![ALT](/static/images/testing/adminux.png) |
 | 13. Add a product | Add a new item to my website | Site owner is able to add products to the website | Works as expected | ![ALT](/static/images/testing/addux.png) |
 | 14. Delete a product | Remove items from my website that are no longer on sale | Site owner is able to delete a product from the website when it is no longer required | Works as expected | ![ALT](/static/images/testing/deleteux.png) |
