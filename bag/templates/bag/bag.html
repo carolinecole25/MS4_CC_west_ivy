@@ -13,6 +13,7 @@
 
 {% block content %}
     <div class="overlay"></div>
+    <!--page heading-->
     <div class="container mb-2">
         <div class="row">
             <div class="col text-center mt-3">
@@ -22,6 +23,7 @@
         </div>
         <div class="row">
             <div class="col">
+                <!-- Items in bags -->
                 {% if bag_items %}
                     <div class="table-responsive rounded">
                         <table class="table table-sm table-border-less">
@@ -87,6 +89,7 @@
                                 </tr>
                             {% endfor %}
                             <tr>
+                                <!--Checkout and bag totals-->
                                 <td colspan="5" class="checkout-items text-right col-md-2">
                                     <h6><strong>Bag Total: £{{ total|floatformat:2 }}</strong></h6>
                                     <h6>Delivery: £{{ delivery|floatformat:2 }}</h6>
@@ -99,6 +102,7 @@
                                 </td>
                             </tr>
                             <tr>
+                                <!--Links back to shopping or to checkout-->
                                 <td colspan="5" class="text-right col-md-2">
                                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                                         <span class="icon">
@@ -117,6 +121,7 @@
                         </table>
                     </div>
                 {% else %}
+                <!--Displays if bag is empty-->
                     <p class="lead mb-5">Your bag is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">

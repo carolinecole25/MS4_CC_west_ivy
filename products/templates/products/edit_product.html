@@ -11,6 +11,7 @@
 
 {% block content %}
     <div class="overlay"></div>
+    <!--page header-->
     <div class="container">
         <div class="row">
             <div class="col text-center mt-3">
@@ -20,6 +21,7 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-6">
+                <!--Editing product form, only admin can use -->
                 <form method="POST" action="{% url 'edit_product' product.id %}" class="form mb-2" enctype="multipart/form-data">
                     {% csrf_token %}
                     {% for field in form %}
